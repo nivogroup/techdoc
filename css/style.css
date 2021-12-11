@@ -27,7 +27,7 @@ body {
 }
 #navbar li{
   list-style: none;
-  padding: 10px 0 10px 20px;
+  padding: 11px 0 11px 20px;
   border-top: 1px solid #000;
 }
 #navbar a{
@@ -56,4 +56,23 @@ code{
   background-color: #f4f4f4;
   border-radius: 5px;
   margin: 10px;
+}
+@media(max-width: 768px){
+  #grid{
+    display:block;
+  }
+  #navbar{
+    position: inline;
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  #navbar header{
+    text-align: center;
+  }
+  .main-section{
+    width: 90%;
+    margin:auto;
+  }
+  
 }
